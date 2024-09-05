@@ -206,3 +206,4 @@ module code (/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:569:67)
 2024-09-05 17:41:07.801 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
 2024-09-05 17:42:27.932 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
 2024-09-05 17:43:48.373 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:45:08.500 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
