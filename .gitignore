@@ -1,4 +1,5 @@
-home-assistant_v2.db-wal
-.storage/auth
-www/community/lovelace-card-mod
-www/community/lovelace-card-mod
+home-assistant_v2.*
+home-assistant.*
+.storage/auth/*
+www/community/lovelace-card-mod/**
+
