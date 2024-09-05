@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "id": "2648ba24c38f47d9880652fda340b542",
+        "url": "/hacsfiles/Bubble-Card/bubble-card.js?hacstag=680112919210",
+        "type": "module"
+      },
+      {
+        "id": "bc523ae973fb462fb07cd9b68294f4e7",
+        "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325411",
+        "type": "module"
+      },
+      {
+        "id": "720ceaae0c644a7da46e5bf9534b23bf",
+        "url": "/hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202491",
+        "type": "module"
+      },
+      {
+        "id": "5322c03e64af441ba18640eb2fbdb7cf",
+        "url": "/hacsfiles/rgb-light-card/card.js?hacstag=2153271951110",
+        "type": "module"
+      },
+      {
+        "id": "904dd170bdcf403f8a97dc3856c619f3",
+        "url": "/hacsfiles/config-template-card/config-template-card.js?hacstag=172177543136",
+        "type": "module"
+      },
+      {
+        "id": "506c6b72934e44f28eea7beb559cfac5",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375407",
+        "type": "module"
+      },
+      {
+        "id": "b13a0cd162de4d53be71907c9ef22327",
+        "url": "/browser_mod.js?automatically-added",
+        "type": "module"
+      },
+      {
+        "id": "aa59225253154eebbb6147151ce997a8",
+        "url": "/hacsfiles/banner-card/banner-card.js?hacstag=1867657040130",
+        "type": "module"
+      },
+      {
+        "id": "780bfda94cd44f419bdbeba7b8ea8785",
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module"
+      },
+      {
+        "id": "f37d783c62dc456ea6aec3682f2486ec",
+        "url": "/hacsfiles/lovelace-horizon-card/lovelace-horizon-card.js?hacstag=614083491100",
+        "type": "module"
+      },
+      {
+        "id": "791606f2123747368553709f456517a5",
+        "url": "/local/lovelace-horizon-card.js",
+        "type": "module"
+      },
+      {
+        "id": "010f8b7430b34737961fe75c7d233f3c",
+        "url": "/hacsfiles/themable-grid/themable-grid.js?hacstag=321773656211",
+        "type": "module"
+      },
+      {
+        "id": "4d8932086a374e979eb322c5ceda8b36",
+        "url": "/hacsfiles/themable-grid/themable-grid.js?hacstag=321773656211",
+        "type": "module"
+      },
+      {
+        "id": "fb23f23f357e4b5888a644337c84bc94",
+        "url": "/hacsfiles/swiss-army-knife-card/swiss-army-knife-card.js?hacstag=214786112251",
+        "type": "module"
+      },
+      {
+        "id": "07d8d9e7384a45b0b68168b853c09264",
+        "url": "/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js?hacstag=586363416302",
+        "type": "module"
+      },
+      {
+        "id": "b5be5cb337ca468a85f564147ffd478d",
+        "url": "/hacsfiles/lovelace-notify-card/notify-card.js?hacstag=35896265678963",
+        "type": "module"
+      },
+      {
+        "id": "cd27fc40dea942798cbf6f2d78f9effd",
+        "url": "/hacsfiles/lovelace-card-tools/card-tools.js?hacstag=16140332811",
+        "type": "module"
+      },
+      {
+        "id": "0500aeb9862a47bc8da964715c89bc0b",
+        "url": "/hacsfiles/surveillance-card/surveillance-card.js?hacstag=147764937007",
+        "type": "module"
+      },
+      {
+        "id": "ff5d93d92544497e9fa5aa01e42cc24f",
+        "url": "/hacsfiles/button-text-card/button-text-card.js?hacstag=241706284065",
+        "type": "module"
+      },
+      {
+        "id": "9a7a45f972bc4076be81d82146d9154a",
+        "url": "/webrtc/webrtc-camera.js?v=v3.5.2",
+        "type": "module"
+      }
+    ]
+  }
+}

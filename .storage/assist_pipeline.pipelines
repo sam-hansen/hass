@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "assist_pipeline.pipelines",
+  "data": {
+    "items": [
+      {
+        "conversation_engine": "conversation.home_assistant",
+        "conversation_language": "en",
+        "id": "01h8n19mhzk3wcdrzqadjvmdrh",
+        "language": "en",
+        "name": "Home Assistant",
+        "stt_engine": "stt.home_assistant_cloud",
+        "stt_language": "en-US",
+        "tts_engine": "tts.home_assistant_cloud",
+        "tts_language": "en-US",
+        "tts_voice": "BrandonNeural",
+        "wake_word_entity": null,
+        "wake_word_id": null
+      },
+      {
+        "conversation_engine": "conversation.home_assistant",
+        "conversation_language": "en",
+        "id": "01h8sgbhq433170q8tsh5h72a3",
+        "language": "en",
+        "name": "Assistant ",
+        "stt_engine": null,
+        "stt_language": null,
+        "tts_engine": "tts.google_en_com",
+        "tts_language": "en-us",
+        "tts_voice": null,
+        "wake_word_entity": null,
+        "wake_word_id": null
+      },
+      {
+        "conversation_engine": "conversation.home_assistant",
+        "conversation_language": "en",
+        "id": "01hb5rtrzjagqv1cbsj56xg5xd",
+        "language": "en",
+        "name": "Home Assistant Cloud",
+        "stt_engine": "stt.home_assistant_cloud",
+        "stt_language": "en-US",
+        "tts_engine": "tts.home_assistant_cloud",
+        "tts_language": "en-US",
+        "tts_voice": "GuyNeural",
+        "wake_word_entity": null,
+        "wake_word_id": null
+      }
+    ],
+    "preferred_item": "01hb5rtrzjagqv1cbsj56xg5xd"
+  }
+}

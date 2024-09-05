@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "input_select",
+  "data": {
+    "items": [
+      {
+        "id": "resources",
+        "icon": "mdi:source-repository-multiple",
+        "name": "Resources",
+        "options": [
+          "Add Resource"
+        ]
+      }
+    ]
+  }
+}

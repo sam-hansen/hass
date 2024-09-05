@@ -1,0 +1,197 @@
+2024-09-05 14:02:56.332 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.334 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.335 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.337 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.340 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.341 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration webrtc which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.342 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration simpleicons which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.343 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration spook_inverse which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:02:56.344 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration alexa_media which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-09-05 14:03:00.353 WARNING (ImportExecutor_0) [homeassistant.helpers.typing] HomeAssistantType was used from webrtc, this is a deprecated alias which will be removed in HA Core 2025.5. Use homeassistant.core.HomeAssistant instead, please report it to the author of the 'webrtc' custom integration
+2024-09-05 14:03:00.360 WARNING (ImportExecutor_0) [homeassistant.helpers.typing] ServiceCallType was used from webrtc, this is a deprecated alias which will be removed in HA Core 2025.5. Use homeassistant.core.ServiceCall instead, please report it to the author of the 'webrtc' custom integration
+2024-09-05 14:03:00.376 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'webrtc' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/webrtc/video-rtc.js", "/config/custom_components/webrtc/www/video-rtc.js", True)])`; This function will be removed in 2025.7 at custom_components/webrtc/__init__.py, line 67: hass.http.register_static_path("/webrtc/" + name, str(path / name)), please create a bug report at https://github.com/AlexxIT/WebRTC/issues
+2024-09-05 14:03:00.389 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'webrtc' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/webrtc/embed", "/config/custom_components/webrtc/www/embed.html", True)])`; This function will be removed in 2025.7 at custom_components/webrtc/__init__.py, line 74: hass.http.register_static_path("/webrtc/embed", str(path / "embed.html")), please create a bug report at https://github.com/AlexxIT/WebRTC/issues
+2024-09-05 14:03:00.926 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'fontawesome' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/fontawesome/main.js", "/config/custom_components/fontawesome/main.js", True)])`; This function will be removed in 2025.7 at custom_components/fontawesome/__init__.py, line 50: hass.http.register_static_path(, please report it to the author of the 'fontawesome' custom integration
+2024-09-05 14:03:00.929 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'fontawesome' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/fontawesome/icons/brands", "/config/custom_components/fontawesome/data/brands", True)])`; This function will be removed in 2025.7 at custom_components/fontawesome/__init__.py, line 58: hass.http.register_static_path(, please report it to the author of the 'fontawesome' custom integration
+2024-09-05 14:03:00.953 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'fontawesome' calls hass.http.register_static_path which is deprecated because it does blocking I/O in the event loop, instead call `await hass.http.async_register_static_paths([StaticPathConfig("/fontawesome/icons/pro", "/config/custom_icons", True)])`; This function will be removed in 2025.7 at custom_components/fontawesome/__init__.py, line 69: hass.http.register_static_path(, please report it to the author of the 'fontawesome' custom integration
+2024-09-05 14:03:00.991 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:03:01.564 ERROR (MainThread) [homeassistant.components.device_tracker] Platform mobile_app does not generate unique IDs. ID A61510DC-E40E-4324-8C46-B269FD9E4882 already exists - ignoring device_tracker.sams_ipad
+2024-09-05 14:03:01.568 ERROR (MainThread) [homeassistant.components.device_tracker] Platform mobile_app does not generate unique IDs. ID A61510DC-E40E-4324-8C46-B269FD9E4882 already exists - ignoring device_tracker.sams_ipad
+2024-09-05 14:03:10.430 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:03:20.527 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:03:40.913 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:04:21.180 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:05:41.519 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:07:01.763 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:08:22.033 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:09:42.150 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:11:02.608 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:12:23.049 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:13:43.294 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:15:03.373 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:16:23.617 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:17:43.730 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:19:03.887 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:20:24.125 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:21:44.232 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:23:04.636 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:24:24.804 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:25:45.014 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:27:05.227 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:28:25.425 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:29:45.624 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:31:06.120 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:32:26.466 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:33:46.856 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:35:07.072 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:36:27.278 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:37:47.718 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:39:08.130 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:40:28.585 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:41:49.031 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:43:09.107 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:44:29.210 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:45:49.671 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:47:09.773 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:48:29.875 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:49:50.160 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:51:10.219 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:52:30.712 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:53:50.961 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:55:11.379 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:56:31.665 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:57:52.006 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 14:59:12.303 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:00:32.537 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:01:53.039 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:03:13.208 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:04:33.524 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:05:53.894 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:07:14.173 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:08:34.289 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:09:54.612 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:11:14.980 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:12:35.394 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:13:55.797 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:15:16.077 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:16:36.194 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:17:56.463 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:19:16.525 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:20:36.976 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:21:57.174 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:23:17.591 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:24:38.019 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:25:58.432 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:27:18.524 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:28:38.922 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:29:59.394 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:30:45.167 ERROR (MainThread) [frontend.js.modern.202409040] Uncaught error from WebKit 605.1.15 on iOS 17.6.1
+Error: Failed to execute 'define' on 'CustomElementRegistry': the name "mushroom-select" has already been used with this registry
+message (node_modules/core-js/modules/web.dom-exception.stack.js:25:24)
+src/scoped-custom-element-registry.js:45:10
+/hacsfiles/lovelace-mushroom/mushroom.js:29:67
+n (/hacsfiles/lovelace-mushroom/mushroom.js:1:964)
+module code (/hacsfiles/lovelace-mushroom/mushroom.js:571:63)
+2024-09-05 15:31:19.552 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:32:40.067 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:34:00.475 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:35:20.775 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:36:41.228 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:38:01.625 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:39:22.121 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:40:42.261 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:42:02.450 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:43:22.656 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:44:42.736 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:46:03.202 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:47:23.508 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:48:43.875 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:50:04.261 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:51:15.935 ERROR (MainThread) [frontend.js.legacy.202408090] Uncaught error from WebKit 605.1.15 on Mac OS 10.15.7
+Error: Failed to execute 'define' on 'CustomElementRegistry': the name "mushroom-select" has already been used with this registry
+message (node_modules/core-js/modules/web.dom-exception.stack.js:25:24)
+src/scoped-custom-element-registry.js:45:10
+/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:29:67
+n (/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:1:964)
+module code (/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:569:67)
+2024-09-05 15:51:24.435 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:52:44.837 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:54:05.241 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:55:25.431 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:56:45.555 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:58:05.614 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 15:59:26.040 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:00:46.456 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:02:06.720 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:03:27.100 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:04:47.521 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:06:07.635 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:07:27.825 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:08:48.498 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:10:08.940 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:11:29.053 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:12:49.139 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:14:09.330 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:15:29.705 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:16:49.876 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:18:10.028 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:19:30.339 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:20:50.630 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:22:10.804 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:23:30.969 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:24:51.260 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:26:11.339 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:27:31.548 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:28:51.971 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:29:31.527 ERROR (MainThread) [frontend.js.legacy.202408090] Uncaught error from WebKit 605.1.15 on Mac OS 10.15.7
+Error: Failed to execute 'define' on 'CustomElementRegistry': the name "mushroom-select" has already been used with this registry
+message (node_modules/core-js/modules/web.dom-exception.stack.js:25:24)
+src/scoped-custom-element-registry.js:45:10
+/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:29:67
+n (/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:1:964)
+module code (/hacsfiles/lovelace-mushroom-better-sliders/mushroom.js:569:67)
+2024-09-05 16:30:12.295 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:31:32.682 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:32:52.771 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:34:13.269 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:35:33.465 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:36:53.620 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:38:13.716 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:39:33.873 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:40:54.063 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:42:14.505 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:43:34.926 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:44:55.218 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:46:15.665 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:47:35.975 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:48:56.327 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:50:16.415 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:51:36.548 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:52:56.835 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:54:17.322 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:55:37.625 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:56:57.680 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:58:17.962 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 16:59:38.130 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:00:58.372 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:02:18.661 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:03:38.953 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:04:59.280 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:06:19.371 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:07:39.839 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:09:00.031 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:10:20.255 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:11:40.678 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:13:00.805 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:14:21.300 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:15:41.605 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:17:01.685 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:18:22.013 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:19:42.372 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:21:02.772 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:22:23.181 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:23:43.420 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:25:03.570 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:26:24.027 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:27:44.176 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
+2024-09-05 17:29:04.589 ERROR (MainThread) [homeassistant.components.govee_light_local] Port 4002 already in use
