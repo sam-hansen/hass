@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "cloud",
+  "data": {
+    "alexa_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "alexa_entity_configs": {},
+    "alexa_settings_version": 3,
+    "cloud_user": "f2d8dbac8ba4416abd2c26968ef41f5c",
+    "cloudhooks": {
+      "26b0576a59eff13b430435809d074e7aac748e9db0d67fda8b548e21ab1a8a43": {
+        "webhook_id": "26b0576a59eff13b430435809d074e7aac748e9db0d67fda8b548e21ab1a8a43",
+        "cloudhook_id": "c636a6e35b644d5ea512c283ebf426bb",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABlHJCwy_g3AR43M_jdbjXflJL_WhSgTH_xuCfCx96QZS7Z5wqGfJfd9x8Ruy17NZsuSfx05Vg_4BVQss5IzT5TTNTqBCbeKiEy2mxa63k8feuiRrb9jo32ugdvLRoXFCFn7LXZeZpYXwKq0xGq8Ijemjb3mSCeytDWch6VKjOJBJhQ6-0=",
+        "managed": false
+      },
+      "ee41da77a1428a8e7adc9bc6751355b2fbd81c58ae441e3236bee89fee6f58de": {
+        "webhook_id": "ee41da77a1428a8e7adc9bc6751355b2fbd81c58ae441e3236bee89fee6f58de",
+        "cloudhook_id": "5df69e3723744576985f0126bbaa58bf",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABlKa1iQjSCGugZ5qs5RhA32M8QHO4x6wntqp-NXP9phhp9RFAtoE3NCcLWBptlm7Oza-vHEpDcdQHCnlqqvktA5m3eWA3Iih_VJcQGiQhipTdcRTQVZZAfFJeEIDv6qP89dFa3wPfl8L5Dx0c-7Vd6AOIzOjy_qKo5nmaafOlfwSRbtjw=",
+        "managed": true
+      },
+      "d8060f892117fd17085a6ed62138922f889bb17e0d09dc38e992d91b67b7289b": {
+        "webhook_id": "d8060f892117fd17085a6ed62138922f889bb17e0d09dc38e992d91b67b7289b",
+        "cloudhook_id": "6f0df862ce0141a494069599d49a6700",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABlLcYZOjY6d-3pNUGU0_biWyZOUXRxralPpfRjAG0Ze8NCpGIaG1TXMRuumGLhbxLj69F5LwoEfc3BgfkxmTkgY1w718Fimv2T8nI_gmyH75A4cqXpvkbk1fTZuaqTNLMcptzI_vcp4c0yvhxMXnzsloKNaqeS59S2RAmcils6Ko9BGuo=",
+        "managed": false
+      },
+      "7573ce24e19697913e101e5e4694e510091786f3673576d833cc2d444678579e": {
+        "webhook_id": "7573ce24e19697913e101e5e4694e510091786f3673576d833cc2d444678579e",
+        "cloudhook_id": "39581d418b3044fda24949d1a2f2b03f",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABlYZKEqCVALCyhoQMo801F5t_7-URCgR5-RSuR_65Y5zF9DYw3331TRIkosjhHoZ7D-q0Q50-BN1X45RHA1Ruf1H-4Dvdgy9jIuBA99fG0tSAfgsGiqyIpgG2S3KggqeuXiE9Xfb8ULEkEAvHaCv-V92tyq5cnLFjLNTj9tWNJkJdByLk=",
+        "managed": true
+      },
+      "0f3b1549326337fff3f425b33d1c874371c21c73a4c6137cc39240328785763c": {
+        "webhook_id": "0f3b1549326337fff3f425b33d1c874371c21c73a4c6137cc39240328785763c",
+        "cloudhook_id": "27f130a4a83140259abb31aac86896ba",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABmg6iVXI_lJ-mUPFDlBtt6BaK4iUK9Km-5TFNCyxuDWh6Vh8qSh-C7y_VAGEoldXAPoRYEhiJIwSRBRRxcKKwX48bv054w-NdkhzngWhsbq687Rk6EzVABsjIc4i-xiEsIhDrPUwTHiVwDN5a0UxUD9ouW58bqIFpJwTFRL3XIr_0c1Jk=",
+        "managed": true
+      },
+      "b94ad92e89601c014897557a63e65da128827ddb684ba0b092f60dc33e422442": {
+        "webhook_id": "b94ad92e89601c014897557a63e65da128827ddb684ba0b092f60dc33e422442",
+        "cloudhook_id": "26259891b8074dc4b80ce6188e3027bf",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABmg73MRSgrnVAKwRkXjYELJINTg-QVAivdZlfjZ7k3OIZ32kI_ayrMqZrPnW3CdtboVj6vw3vFz0B7tHhlQ3NbrWnAr7lcxbQWtID0L7eD_IGsuWL0W98oBjQ5c5ij2ZFD_2fFWnssOI6JT0L1C8Ny1OdZwjIgvb8HAFY4QReuOf4usUU=",
+        "managed": true
+      },
+      "eb6a1f35e97783054434cb73277ebc2ace41913ca6fa626ce99ce9989de4f5c0": {
+        "webhook_id": "eb6a1f35e97783054434cb73277ebc2ace41913ca6fa626ce99ce9989de4f5c0",
+        "cloudhook_id": "42cc6cca2fb74470b3f11f0cbf9954e9",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABmg74Lq-aixG7mxVR0IVeTLyw0HyruFbuwcNe0z4quz8RcncZ_xHPb4pQHLSNJRQwM_9T8jTE2S5Fnu0kgQsANfTy8X1cRAw1jhOstg_CZ54cKkzmhCwHKvahYP3YsCKS5FZFyWOVbLUE_PZ8L6hT1q3MIeB7pOvcJvbeiu2DtBPadW9E=",
+        "managed": true
+      },
+      "fcf371262cd2cae6888d8f9ba3fdc719a90212103c08f3c5aff9cbb01a287fd3": {
+        "webhook_id": "fcf371262cd2cae6888d8f9ba3fdc719a90212103c08f3c5aff9cbb01a287fd3",
+        "cloudhook_id": "4ef516c2f44d4117bd3256d3d67188fb",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABmixwgxy1ej5x_Ml7LLRUzILOsVCKJpMPFSM9-d9tiWTLFHWgQtbq4vS5obc0yI3uOZWySGmv4n6ub2s_zwjkq2POPVxifyZr4fC57Y8wfjGIh8p3gsgbTLk0-UcY8ocj8t5hkPBUKsj99D8uIWCfcG4G6YLFRD1ofNGOmEpbdM49HlO0=",
+        "managed": true
+      },
+      "ce7a7c12a4cceda2efc98e1a7288c0e770354f26a78fa660eba7e7b80ec5d86b": {
+        "webhook_id": "ce7a7c12a4cceda2efc98e1a7288c0e770354f26a78fa660eba7e7b80ec5d86b",
+        "cloudhook_id": "b7d4c44f4969456e9f64faa83a5348f1",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABmu43pY6xk_5UgqbcccYmtWp89hJbCbjKDtU0W_aJlhu87kRaq2NOx32hfv8GWWVWw-zZpzHm4pty7QzhVaT7zYkZWaYS1qabvpAYfoHJq-nAU22Bt9vPbdoLmy9eY6zrUxMR_hWAbqAffLznMoRafHZ9tLv4EcyWKooKC6KwxrO9Tt1Q=",
+        "managed": true
+      }
+    },
+    "alexa_enabled": true,
+    "google_enabled": false,
+    "remote_enabled": true,
+    "google_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "google_entity_configs": {},
+    "google_settings_version": 3,
+    "google_local_webhook_id": "0b43b27a59f3dfd72ec32d6cb58a28e0b6f2d6acb3962a6360f9696e2cbde523",
+    "google_secure_devices_pin": null,
+    "remote_domain": "5qbz5hopfnybbgf2vi3e2v9bz0q959a8.ui.nabu.casa",
+    "username": "907c5037-e14e-45e1-b96c-c3ac764265d1",
+    "tts_default_voice": [
+      "en-US",
+      "GuyNeural"
+    ],
+    "instance_id": "2cf700aa11f84b80ab20c55dd0242ca5",
+    "google_connected": false,
+    "google_report_state": false
+  }
+}

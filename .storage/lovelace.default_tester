@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.default_tester",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "title": "WIP",
+          "icon": "mdi:home-lightning-bolt",
+          "subview": true,
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "custom:banner-card",
+                  "heading": "Productivity",
+                  "theme": "Mushroom Shadow"
+                },
+                {
+                  "type": "todo-list",
+                  "entity": "todo.list",
+                  "title": "Works in Progress",
+                  "theme": "Mushroom Shadow"
+                },
+                {
+                  "type": "custom:horizon-card",
+                  "theme": "Mushroom Shadow"
+                },
+                {
+                  "type": "entities",
+                  "show_header_toggle": false,
+                  "entities": [
+                    {
+                      "entity": "light.aurora_table_lamp"
+                    },
+                    {
+                      "type": "custom:rgb-light-card",
+                      "entity": "light.aurora_table_lamp",
+                      "colors": [
+                        {
+                          "rgb_color": [
+                            234,
+                            136,
+                            140
+                          ],
+                          "brightness": 255,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            251,
+                            180,
+                            139
+                          ],
+                          "brightness": 200,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            136,
+                            198,
+                            237
+                          ],
+                          "brightness": 150,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            140,
+                            231,
+                            185
+                          ],
+                          "brightness": 100,
+                          "transition": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "state_color": true,
+                  "theme": "Mushroom Shadow",
+                  "title": "Table Lamp"
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-select-card",
+              "entity": "input_select.resources"
+            },
+            {
+              "type": "custom:mushroom-person-card",
+              "entity": "person.sam",
+              "fill_container": false,
+              "primary_info": "name",
+              "secondary_info": "state"
+            },
+            {
+              "camera_view": "auto",
+              "type": "picture-glance",
+              "entities": [
+                {
+                  "entity": "sensor.blink_back_wi_fi_signal_strength"
+                },
+                {
+                  "entity": "switch.back_camera_motion_detection"
+                },
+                {
+                  "entity": "binary_sensor.back_camera_armed"
+                }
+              ],
+              "camera_image": "camera.back",
+              "title": "Back",
+              "entity": "camera.back",
+              "theme": "Mushroom Shadow"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "c0a78d142ff2491a72867e79a274c4ab",
+        "filesize": 478303,
+        "content_type": "image/jpeg",
+        "name": "Facetune_08-03-2018-16-08-42.jpeg",
+        "uploaded_at": "2023-08-25T13:46:37.265572+00:00"
+      },
+      {
+        "id": "91dbe326a0cc1b61f5d77b469572b348",
+        "filesize": 1394519,
+        "content_type": "image/png",
+        "name": "IMG_1563.png",
+        "uploaded_at": "2024-07-02T09:42:37.868631+00:00"
+      }
+    ]
+  }
+}

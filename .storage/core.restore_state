@@ -1,0 +1,1001 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.sam","state":"Hood","attributes":{"editable":true,"id":"sam","device_trackers":["device_tracker.sams_iphone","device_tracker.sams_ipad","device_tracker.sams_mbp","device_tracker.samsiphone"],"latitude":41.199795895376994,"longitude":-112.08378753398237,"gps_accuracy":35,"source":"device_tracker.sams_mbp","user_id":"329cba3977ca4efd93a9e25f65d5379e","entity_picture":"/api/image/serve/c0a78d142ff2491a72867e79a274c4ab/512x512","friendly_name":"Sam"},"last_changed":"2024-09-05T20:02:56.700210+00:00","last_reported":"2024-09-05T20:03:09.664310+00:00","last_updated":"2024-09-05T20:03:09.664310+00:00","context":{"id":"01J71WH6Q07V1XG9VT1ASQS3M5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"person.danny","state":"unknown","attributes":{"editable":true,"id":"danny","device_trackers":[],"user_id":"9f730f47faca46c1a87cc3db4b43647d","entity_picture":"/api/image/serve/91dbe326a0cc1b61f5d77b469572b348/512x512","friendly_name":"Danny"},"last_changed":"2024-09-05T20:02:56.700373+00:00","last_reported":"2024-09-05T20:03:09.664437+00:00","last_updated":"2024-09-05T20:03:09.664437+00:00","context":{"id":"01J71WH6Q0GE791XSTH4ZTRD8H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.08.0","in_progress":false,"latest_version":"2024.08.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.08.0","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-09-05T20:02:57.520846+00:00","last_reported":"2024-09-05T20:02:57.520846+00:00","last_updated":"2024-09-05T20:02:57.520846+00:00","context":{"id":"01J71WGTVGSTFC3SH3TQG429FF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.9.0","in_progress":false,"latest_version":"2024.9.0","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-09-05T20:02:57.521172+00:00","last_reported":"2024-09-05T20:02:57.521172+00:00","last_updated":"2024-09-05T20:02:57.521172+00:00","context":{"id":"01J71WGTVHEA7GRNDKXSR420H1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":false,"installed_version":"5.15.0","in_progress":false,"latest_version":"5.15.0","release_summary":"## What’s changed\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#763](https://github.com/hassio-addons/addon-vscode/pull/763))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2023.11.0 @renovate ([#739](https://github.com/ha","release_url":null,"skipped_version":null,"title":"Studio Code Server","entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.521372+00:00","last_reported":"2024-09-05T20:02:57.521372+00:00","last_updated":"2024-09-05T20:02:57.521372+00:00","context":{"id":"01J71WGTVHA8N10CZFQA8QWT5M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ftp_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.0.2","in_progress":false,"latest_version":"5.0.2","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_19/openssl to v3.1.4-r3 @renovate ([#175](https://github.com/hassio-addons/addon-ftp/pull/175))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.4 @renovate ([#176](https://github","release_url":null,"skipped_version":null,"title":"FTP","entity_picture":"/api/hassio/addons/a0d7b954_ftp/icon","friendly_name":"FTP Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.521548+00:00","last_reported":"2024-09-05T20:02:57.521548+00:00","last_updated":"2024-09-05T20:02:57.521548+00:00","context":{"id":"01J71WGTVHFV5AFGH779D96T26","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":true,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":"# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-","release_url":null,"skipped_version":null,"title":"File editor","entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.521708+00:00","last_reported":"2024-09-05T20:02:57.521708+00:00","last_updated":"2024-09-05T20:02:57.521708+00:00","context":{"id":"01J71WGTVH98WSW2VYPAA5PNXN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.appdaemon_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.16.6","in_progress":false,"latest_version":"0.16.6","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.9 @renovate ([#339](https://github.com/hassio-addons/addon-appdaemon/pull/339))\n","release_url":null,"skipped_version":null,"title":"AppDaemon","entity_picture":"/api/hassio/addons/a0d7b954_appdaemon/icon","friendly_name":"AppDaemon Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.521920+00:00","last_reported":"2024-09-05T20:02:57.521920+00:00","last_updated":"2024-09-05T20:02:57.521920+00:00","context":{"id":"01J71WGTVH9R4WM74ECNJFCKTZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.log_viewer_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.17.0","in_progress":false,"latest_version":"0.17.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for armhf & i386 @frenck ([#189](https://github.com/hassio-addons/addon-log-viewer/pull/189))\n\n## 🚀 Enhancements\n\n- Migrate add-on to new Home Assistant configuration mapping @frenck ([#192](https:/","release_url":null,"skipped_version":null,"title":"Log Viewer","entity_picture":"/api/hassio/addons/a0d7b954_logviewer/icon","friendly_name":"Log Viewer Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.522194+00:00","last_reported":"2024-09-05T20:02:57.522194+00:00","last_updated":"2024-09-05T20:02:57.522194+00:00","context":{"id":"01J71WGTVJT6HDMNRA70BPXW70","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":true,"installed_version":"6.4.1","in_progress":false,"latest_version":"6.4.1","release_summary":"# Changelog\n\n## 6.4.1\n\n- Increase default max_queued_messages to 8192 to fix dropped messages during Home Assistant startup\n\n## 6.4.0\n\n- Update mosquitto to 2.0.18\n\n## 6.3.1\n\n- Add ability to use a pre-hashed password for custom logins\n\n## 6.3.0\n\n- Update","release_url":null,"skipped_version":null,"title":"Mosquitto broker","entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.522372+00:00","last_reported":"2024-09-05T20:02:57.522372+00:00","last_updated":"2024-09-05T20:02:57.522372+00:00","context":{"id":"01J71WGTVJQ0RZRZAFBSB920NQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mariadb_update","state":"off","attributes":{"auto_update":true,"installed_version":"2.7.1","in_progress":false,"latest_version":"2.7.1","release_summary":"# Changelog\n\n## 2.7.1\n\n**Note:** Restart the add-on before upgrade if the current version is lower\nthan 2.7.0! This is to ensure a clean stop right before the update (see also\nhttps://github.com/home-assistant/addons/issues/3566).\n\n- Increase MariaDB add-","release_url":null,"skipped_version":null,"title":"MariaDB","entity_picture":"/api/hassio/addons/core_mariadb/icon","friendly_name":"MariaDB Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.522529+00:00","last_reported":"2024-09-05T20:02:57.522529+00:00","last_updated":"2024-09-05T20:02:57.522529+00:00","context":{"id":"01J71WGTVJQQS7Y6M6CEKJ2Y3Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.govee_to_mqtt_bridge_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.07.13-82ddc6e9","in_progress":false,"latest_version":"2024.07.13-82ddc6e9","release_summary":"# Changelog\n\nThis file is automatically generated from the git commit history.\n\n## [2024.07.13-82ddc6e9] - 2024-07-13 15:22\n\n### ⚙️ Miscellaneous\n\n- Add quirk for H7170 kettle to report proper temperature\n\n- Add new fields from govee undoc api\n\n- Update s","release_url":null,"skipped_version":null,"title":"Govee to MQTT Bridge","friendly_name":"Govee to MQTT Bridge Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.530337+00:00","last_reported":"2024-09-05T20:02:57.530337+00:00","last_updated":"2024-09-05T20:02:57.530337+00:00","context":{"id":"01J71WGTVTAS6M6CPM8B9KHD3D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.grocy_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.21.0","in_progress":false,"latest_version":"0.21.0","release_summary":"## What’s changed\n\n## 🚨 Breaking changes\n\n- Drop support for armhf & i386 @frenck ([#403](https://github.com/hassio-addons/addon-grocy/pull/403))\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2024 @frenck ([#418](https://github.com/hassio-add","release_url":null,"skipped_version":null,"title":"Grocy","entity_picture":"/api/hassio/addons/a0d7b954_grocy/icon","friendly_name":"Grocy Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.532592+00:00","last_reported":"2024-09-05T20:02:57.532592+00:00","last_updated":"2024-09-05T20:02:57.532592+00:00","context":{"id":"01J71WGTVW3WZ1JVZRY1278B49","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":true,"installed_version":"18.0.0","in_progress":false,"latest_version":"18.0.0","release_summary":"## What’s changed\n\n## 🐛 Bug fixes\n\n- Fix procps -> procps-ng @frenck ([#738](https://github.com/hassio-addons/addon-ssh/pull/738))\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_19/git to v2.43.4-r0 @renovate ([#734](https://github.com/hassio-addons/addo","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.532841+00:00","last_reported":"2024-09-05T20:02:57.532841+00:00","last_updated":"2024-09-05T20:02:57.532841+00:00","context":{"id":"01J71WGTVW0E0P31QFR4EFTMDC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.music_assistant_update_2","state":"off","attributes":{"auto_update":true,"installed_version":"2.2.2","in_progress":false,"latest_version":"2.2.2","release_summary":"# [2.2.2] - 23.08.2024\n\n## What’s Changed\n\n- #1598 - Fix track number gets mixed up with disc number (@marcelveldt)\n- #1597 - Small improvements to the spotify token auth (@marcelveldt)\n- #1596 - Prevent db migration when upgrading from 2.1 to 2.2 (@marce","release_url":null,"skipped_version":null,"title":"Music Assistant Server","entity_picture":"/api/hassio/addons/d5369777_music_assistant/icon","friendly_name":"Music Assistant Server Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.533036+00:00","last_reported":"2024-09-05T20:02:57.533036+00:00","last_updated":"2024-09-05T20:02:57.533036+00:00","context":{"id":"01J71WGTVX1HSYJ95FS77AYTZT","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.emqx_update","state":"off","attributes":{"auto_update":true,"installed_version":"0.6.2","in_progress":false,"latest_version":"0.6.2","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update emqx/emqx to v5.7.2 @renovate ([#108](https://github.com/hassio-addons/addon-emqx/pull/108))\n","release_url":null,"skipped_version":null,"title":"EMQX","entity_picture":"/api/hassio/addons/a0d7b954_emqx/icon","friendly_name":"EMQX Update","supported_features":25},"last_changed":"2024-09-05T20:02:57.533193+00:00","last_reported":"2024-09-05T20:02:57.533193+00:00","last_updated":"2024-09-05T20:02:57.533193+00:00","context":{"id":"01J71WGTVXQD58P2P1KHNK5EBW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"13.1","in_progress":false,"latest_version":"13.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/13.1","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-09-05T20:02:57.533433+00:00","last_reported":"2024-09-05T20:02:57.533433+00:00","last_updated":"2024-09-05T20:02:57.533433+00:00","context":{"id":"01J71WGTVXJJVMS10S0V3V7H95","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-09-05T20:02:58.117722+00:00","last_reported":"2024-09-05T20:02:58.117722+00:00","last_updated":"2024-09-05T20:02:58.117722+00:00","context":{"id":"01J71WGVE53R4MB2QXZ4G6EJJ0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2024-09-05T20:02:58.118140+00:00","last_reported":"2024-09-05T20:02:58.118140+00:00","last_updated":"2024-09-05T20:02:58.118140+00:00","context":{"id":"01J71WGVE65A7BTJ4FFQA42V2Q","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"input_select.resources","state":"Add Resource","attributes":{"options":["Add Resource"],"editable":true,"icon":"mdi:source-repository-multiple","friendly_name":"Resources"},"last_changed":"2024-09-05T20:02:58.274047+00:00","last_reported":"2024-09-05T20:02:58.274047+00:00","last_updated":"2024-09-05T20:02:58.274047+00:00","context":{"id":"01J71WGVK2PNX9HW2H8Y9ZDK4Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"2024-07-14T17:17:44.447236+00:00","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-09-05T20:02:58.623296+00:00","last_reported":"2024-09-05T20:02:58.623296+00:00","last_updated":"2024-09-05T20:02:58.623296+00:00","context":{"id":"01J71WGVXZ52WVZM1YXDG68H81","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’s iPhone Focus"},"last_changed":"2024-09-05T20:03:01.547038+00:00","last_reported":"2024-09-05T20:03:01.547038+00:00","last_updated":"2024-09-05T20:03:01.547038+00:00","context":{"id":"01J71WGYSBMBZ9YXKGCRQE27PX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.sams_iphone","state":"Hood","attributes":{"source_type":"gps","battery_level":75,"latitude":41.199432373046875,"longitude":-112.0838664733857,"gps_accuracy":35,"altitude":1297.04349899292,"vertical_accuracy":10.042967796325684,"friendly_name":"Sam’s iPhone"},"last_changed":"2024-09-05T20:03:01.547983+00:00","last_reported":"2024-09-05T20:03:01.547983+00:00","last_updated":"2024-09-05T20:03:01.547983+00:00","context":{"id":"01J71WGYSBW7CZNKS8QM88VYZ4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_activity","state":"Automotive","attributes":{"Confidence":"High","Types":["Automotive"],"icon":"mdi:car","friendly_name":"Sam’s iPhone Activity"},"last_changed":"2024-09-05T20:03:01.549874+00:00","last_reported":"2024-09-05T20:03:01.549874+00:00","last_updated":"2024-09-05T20:03:01.549874+00:00","context":{"id":"01J71WGYSD4JM7ENS5GZPDX4FT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Automotive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_distance","state":"1780","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Sam’s iPhone Distance"},"last_changed":"2024-09-05T20:03:01.550339+00:00","last_reported":"2024-09-05T20:03:01.550339+00:00","last_updated":"2024-09-05T20:03:01.550339+00:00","context":{"id":"01J71WGYSEE3BAY1TW8F81K1T1","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1780,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_floors_descended","state":"3","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Sam’s iPhone Floors Descended"},"last_changed":"2024-09-05T20:03:01.550561+00:00","last_reported":"2024-09-05T20:03:01.550561+00:00","last_updated":"2024-09-05T20:03:01.550561+00:00","context":{"id":"01J71WGYSE5XMF3YSR0BYSNFA0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_battery_level","state":"65","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-60","friendly_name":"Sam’s iPhone Battery Level"},"last_changed":"2024-09-05T20:03:01.551819+00:00","last_reported":"2024-09-05T20:03:01.551819+00:00","last_updated":"2024-09-05T20:03:01.551819+00:00","context":{"id":"01J71WGYSFBX9MVYHYN5KP8332","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 65,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_floors_ascended","state":"2","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Sam’s iPhone Floors Ascended"},"last_changed":"2024-09-05T20:03:01.552192+00:00","last_reported":"2024-09-05T20:03:01.552192+00:00","last_updated":"2024-09-05T20:03:01.552192+00:00","context":{"id":"01J71WGYSGEZYMXKHBGFAQQA72","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_steps","state":"2480","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Sam’s iPhone Steps"},"last_changed":"2024-09-05T20:03:01.552475+00:00","last_reported":"2024-09-05T20:03:01.552475+00:00","last_updated":"2024-09-05T20:03:01.552475+00:00","context":{"id":"01J71WGYSGK1JCA6C7QPS1SG5H","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2480,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-60","friendly_name":"Sam’s iPhone Battery State"},"last_changed":"2024-09-05T20:03:01.552691+00:00","last_reported":"2024-09-05T20:03:01.552691+00:00","last_updated":"2024-09-05T20:03:01.552691+00:00","context":{"id":"01J71WGYSGVWN43G6MWBRJWN6V","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_storage","state":"59.35","attributes":{"Available":"542.53 GB","Available (Important)":"652.35 GB","Available (Opportunistic)":"607.64 GB","Total":"1,023.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’s iPhone Storage"},"last_changed":"2024-09-05T20:03:01.552872+00:00","last_reported":"2024-09-05T20:03:01.552872+00:00","last_updated":"2024-09-05T20:03:01.552872+00:00","context":{"id":"01J71WGYSG3JRB3VVMQRJNN3ZM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "59.35",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_average_active_pace","state":"0","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Sam’s iPhone Average Active Pace"},"last_changed":"2024-09-05T20:03:01.553296+00:00","last_reported":"2024-09-05T20:03:01.553296+00:00","last_updated":"2024-09-05T20:03:01.553296+00:00","context":{"id":"01J71WGYSH12XV05MKXPRQ32N0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Sam’s iPhone SSID"},"last_changed":"2024-09-05T20:03:01.553640+00:00","last_reported":"2024-09-05T20:03:01.553640+00:00","last_updated":"2024-09-05T20:03:01.553640+00:00","context":{"id":"01J71WGYSHESZTDYE09FR2V740","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Sam’s iPhone BSSID"},"last_changed":"2024-09-05T20:03:01.553861+00:00","last_reported":"2024-09-05T20:03:01.553861+00:00","last_updated":"2024-09-05T20:03:01.553861+00:00","context":{"id":"01J71WGYSH88WH9STDQ2Q3QKG6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPhone Connection Type"},"last_changed":"2024-09-05T20:03:01.554267+00:00","last_reported":"2024-09-05T20:03:01.554267+00:00","last_updated":"2024-09-05T20:03:01.554267+00:00","context":{"id":"01J71WGYSJG1WJRBV8H4KA875K","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Sam’s iPhone SIM 2"},"last_changed":"2024-09-05T20:03:01.554462+00:00","last_reported":"2024-09-05T20:03:01.554462+00:00","last_updated":"2024-09-05T20:03:01.554462+00:00","context":{"id":"01J71WGYSJRJXEAW856ZVDEFRF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Sam’s iPhone SIM 1"},"last_changed":"2024-09-05T20:03:01.554628+00:00","last_reported":"2024-09-05T20:03:01.554628+00:00","last_updated":"2024-09-05T20:03:01.554628+00:00","context":{"id":"01J71WGYSJ0X2F1Q1EFCC0KVR3","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_geocoded_location","state":"4321 W 3550 S\nWest Haven UT 84401\nUnited States","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199432373046875,-112.0838664733857],"Name":"4321 W 3550 S","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"4321","Thoroughfare":"W 3550 S","Time Zone":"America/Denver","Zones":["Home"],"icon":"mdi:map","friendly_name":"Sam’s iPhone Geocoded Location"},"last_changed":"2024-09-05T20:03:01.554793+00:00","last_reported":"2024-09-05T20:03:01.554793+00:00","last_updated":"2024-09-05T20:03:01.554793+00:00","context":{"id":"01J71WGYSJQB7N37TPJ8R6N7M8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "4321 W 3550 S\nWest Haven UT 84401\nUnited States",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_iphone_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Sam’s iPhone Last Update Trigger"},"last_changed":"2024-09-05T20:03:01.555220+00:00","last_reported":"2024-09-05T20:03:01.555220+00:00","last_updated":"2024-09-05T20:03:01.555220+00:00","context":{"id":"01J71WGYSKX75XZ292Y3XP5S35","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_ipad_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’s iPad Focus"},"last_changed":"2024-09-05T20:03:01.556285+00:00","last_reported":"2024-09-05T20:03:01.556285+00:00","last_updated":"2024-09-05T20:03:01.556285+00:00","context":{"id":"01J71WGYSMPF52R4PANJ061J92","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.sams_ipad","state":"Hood","attributes":{"source_type":"gps","battery_level":100,"latitude":41.199493408203125,"longitude":-112.08384887761812,"gps_accuracy":5.494777456152758,"altitude":94.80314254760742,"vertical_accuracy":41.24116516113281,"friendly_name":"Sam’s iPad"},"last_changed":"2024-09-05T20:03:01.556718+00:00","last_reported":"2024-09-05T20:03:01.556718+00:00","last_updated":"2024-09-05T20:03:01.556718+00:00","context":{"id":"01J71WGYSMQ5QW3PB53KVXSEK3","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"Sam’s iPad Activity"},"last_changed":"2024-09-05T20:03:01.561679+00:00","last_reported":"2024-09-05T20:03:01.561679+00:00","last_updated":"2024-09-05T20:03:01.561679+00:00","context":{"id":"01J71WGYSSC5NZQ0109CDRPSYD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_level","state":"70","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-70","friendly_name":"Sam’s iPad Battery Level"},"last_changed":"2024-09-05T20:03:01.561972+00:00","last_reported":"2024-09-05T20:03:01.561972+00:00","last_updated":"2024-09-05T20:03:01.561972+00:00","context":{"id":"01J71WGYSSXWJBZSXQWYX0TED2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 70,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-70","friendly_name":"Sam’s iPad Battery State"},"last_changed":"2024-09-05T20:03:01.562154+00:00","last_reported":"2024-09-05T20:03:01.562154+00:00","last_updated":"2024-09-05T20:03:01.562154+00:00","context":{"id":"01J71WGYSTPGJGXX3RNAG6MVAA","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_storage","state":"3.93","attributes":{"Available":"1.80 GB","Available (Important)":"3.98 GB","Available (Opportunistic)":"2.50 GB","Total":"63.99 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’s iPad Storage"},"last_changed":"2024-09-05T20:03:01.562320+00:00","last_reported":"2024-09-05T20:03:01.562320+00:00","last_updated":"2024-09-05T20:03:01.562320+00:00","context":{"id":"01J71WGYST00TVBT5K8RB4269V","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "3.93",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad Connection Type"},"last_changed":"2024-09-05T20:03:01.562487+00:00","last_reported":"2024-09-05T20:03:01.562487+00:00","last_updated":"2024-09-05T20:03:01.562487+00:00","context":{"id":"01J71WGYSTE4V0TPBVTSFTD8QX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_geocoded_location","state":"Home","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199493408203125,-112.08384887761812],"Name":"4303 W 3550 S","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"4303","Thoroughfare":"W 3550 S","Time Zone":"America/Denver","Zones":["Home"],"icon":"mdi:map","friendly_name":"Sam’s iPad Geocoded Location"},"last_changed":"2024-09-05T20:03:01.562651+00:00","last_reported":"2024-09-05T20:03:01.562651+00:00","last_updated":"2024-09-05T20:03:01.562651+00:00","context":{"id":"01J71WGYSTWNV245TYTTBQ0C6R","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Home",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_ssid","state":"Rednecks4Rainbows","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad SSID"},"last_changed":"2024-09-05T20:03:01.562894+00:00","last_reported":"2024-09-05T20:03:01.562894+00:00","last_updated":"2024-09-05T20:03:01.562894+00:00","context":{"id":"01J71WGYSTEWDJHWGYGHBGCBT8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Rednecks4Rainbows",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_bssid","state":"1e:9d:72:ce:49:74","attributes":{"icon":"mdi:wifi-star","friendly_name":"Sam’s iPad BSSID"},"last_changed":"2024-09-05T20:03:01.563214+00:00","last_reported":"2024-09-05T20:03:01.563214+00:00","last_updated":"2024-09-05T20:03:01.563214+00:00","context":{"id":"01J71WGYSVY1HVKT1PW9H0GCAA","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1e:9d:72:ce:49:74",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_last_update_trigger","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Sam’s iPad Last Update Trigger"},"last_changed":"2024-09-05T20:03:01.563388+00:00","last_reported":"2024-09-05T20:03:01.563388+00:00","last_updated":"2024-09-05T20:03:01.563388+00:00","context":{"id":"01J71WGYSVENSCR7B5MAJN3AK6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_ipad_focus_2","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’s iPad Focus"},"last_changed":"2024-09-05T20:03:01.563981+00:00","last_reported":"2024-09-05T20:03:01.563981+00:00","last_updated":"2024-09-05T20:03:01.563981+00:00","context":{"id":"01J71WGYSVJNEQBV0F7AQJH3HE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_activity_2","state":"Stationary","attributes":{"Confidence":"High","Types":["Stationary"],"icon":"mdi:human-male","friendly_name":"Sam’s iPad Activity"},"last_changed":"2024-09-05T20:03:01.565508+00:00","last_reported":"2024-09-05T20:03:01.565508+00:00","last_updated":"2024-09-05T20:03:01.565508+00:00","context":{"id":"01J71WGYSX3RZ7BZ66Q8HHC7ZY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_level_2","state":"100","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery","friendly_name":"Sam’s iPad Battery Level"},"last_changed":"2024-09-05T20:03:01.565789+00:00","last_reported":"2024-09-05T20:03:01.565789+00:00","last_updated":"2024-09-05T20:03:01.565789+00:00","context":{"id":"01J71WGYSX6TBPVPFXTMR88HFS","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_ssid_2","state":"Rednecks4Rainbows","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad SSID"},"last_changed":"2024-09-05T20:03:01.565968+00:00","last_reported":"2024-09-05T20:03:01.565968+00:00","last_updated":"2024-09-05T20:03:01.565968+00:00","context":{"id":"01J71WGYSXNHT36EDDBPBDB10F","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Rednecks4Rainbows",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_state_2","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery","friendly_name":"Sam’s iPad Battery State"},"last_changed":"2024-09-05T20:03:01.566137+00:00","last_reported":"2024-09-05T20:03:01.566137+00:00","last_updated":"2024-09-05T20:03:01.566137+00:00","context":{"id":"01J71WGYSYTX6NY913GFHV0ED4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_connection_type_2","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad Connection Type"},"last_changed":"2024-09-05T20:03:01.566305+00:00","last_reported":"2024-09-05T20:03:01.566305+00:00","last_updated":"2024-09-05T20:03:01.566305+00:00","context":{"id":"01J71WGYSYTKVGEHECTBQHG21S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_storage_2","state":"3.76","attributes":{"Available":"2.08 GB","Available (Important)":"3.69 GB","Available (Opportunistic)":"2.40 GB","Total":"63.99 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’s iPad Storage"},"last_changed":"2024-09-05T20:03:01.566478+00:00","last_reported":"2024-09-05T20:03:01.566478+00:00","last_updated":"2024-09-05T20:03:01.566478+00:00","context":{"id":"01J71WGYSY6HKQ6VATJ9G6JD9Y","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "3.76",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_geocoded_location_2","state":"Home","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199462890625,-112.08385586364342],"Name":"4321 W 3550 S","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"4321","Thoroughfare":"W 3550 S","Time Zone":"America/Denver","Zones":["Home","Home"],"icon":"mdi:map","friendly_name":"Sam’s iPad Geocoded Location"},"last_changed":"2024-09-05T20:03:01.566703+00:00","last_reported":"2024-09-05T20:03:01.566703+00:00","last_updated":"2024-09-05T20:03:01.566703+00:00","context":{"id":"01J71WGYSY17WW83TZHKX9VN3C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Home",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_bssid_2","state":"1e:9d:72:ce:49:74","attributes":{"icon":"mdi:wifi-star","friendly_name":"Sam’s iPad BSSID"},"last_changed":"2024-09-05T20:03:01.566900+00:00","last_reported":"2024-09-05T20:03:01.566900+00:00","last_updated":"2024-09-05T20:03:01.566900+00:00","context":{"id":"01J71WGYSYK33YZF6VXF512F8Z","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1e:9d:72:ce:49:74",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_last_update_trigger_2","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Sam’s iPad Last Update Trigger"},"last_changed":"2024-09-05T20:03:01.567064+00:00","last_reported":"2024-09-05T20:03:01.567064+00:00","last_updated":"2024-09-05T20:03:01.567064+00:00","context":{"id":"01J71WGYSZFG4STE1GA89E0ENY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_ipad_focus_3","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’s iPad Focus"},"last_changed":"2024-09-05T20:03:01.567809+00:00","last_reported":"2024-09-05T20:03:01.567809+00:00","last_updated":"2024-09-05T20:03:01.567809+00:00","context":{"id":"01J71WGYSZ5PENMMM349A9WYZ9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_activity_3","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"Sam’s iPad Activity"},"last_changed":"2024-09-06T00:00:14.530860+00:00","last_reported":"2024-09-06T00:00:14.530860+00:00","last_updated":"2024-09-06T00:00:14.530860+00:00","context":{"id":"01J72A3A629JF3FYKNT0PBRYY4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_connection_type_3","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad Connection Type"},"last_changed":"2024-09-05T20:03:01.568790+00:00","last_reported":"2024-09-05T20:03:01.568790+00:00","last_updated":"2024-09-05T20:03:01.568790+00:00","context":{"id":"01J71WGYT05T18F5QB00QPM3KT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_last_update_trigger_3","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Sam’s iPad Last Update Trigger"},"last_changed":"2024-09-05T23:55:13.585328+00:00","last_reported":"2024-09-05T23:55:13.585328+00:00","last_updated":"2024-09-05T23:55:13.585328+00:00","context":{"id":"01J729T49H51E8N6PBQHDJMSSB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_level_3","state":"30","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"Sam’s iPad Battery Level"},"last_changed":"2024-09-05T23:48:40.413664+00:00","last_reported":"2024-09-05T23:48:40.413664+00:00","last_updated":"2024-09-05T23:48:40.413664+00:00","context":{"id":"01J729E4AXSZ4WFRFC17G2XDVV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 30,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_battery_state_3","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-30","friendly_name":"Sam’s iPad Battery State"},"last_changed":"2024-09-05T20:03:01.578370+00:00","last_reported":"2024-09-05T23:22:34.516199+00:00","last_updated":"2024-09-05T23:22:34.516199+00:00","context":{"id":"01J727YB4M12SKBN7G9GD425FQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_storage_3","state":"7.60","attributes":{"Available":"3.31 GB","Available (Important)":"6.60 GB","Available (Opportunistic)":"4.86 GB","Total":"63.99 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’s iPad Storage"},"last_changed":"2024-09-06T00:01:26.881815+00:00","last_reported":"2024-09-06T00:01:26.881815+00:00","last_updated":"2024-09-06T00:01:26.881815+00:00","context":{"id":"01J72A5GV15P92K2NRD51MV7Q9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "7.60",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_ssid_3","state":"Rednecks4Rainbows","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s iPad SSID"},"last_changed":"2024-09-05T20:03:01.578864+00:00","last_reported":"2024-09-05T20:03:01.578864+00:00","last_updated":"2024-09-05T20:03:01.578864+00:00","context":{"id":"01J71WGYTAE567CNME6C82XAKZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Rednecks4Rainbows",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_bssid_3","state":"1e:9d:72:ce:49:74","attributes":{"icon":"mdi:wifi-star","friendly_name":"Sam’s iPad BSSID"},"last_changed":"2024-09-05T20:03:01.579036+00:00","last_reported":"2024-09-05T20:03:01.579036+00:00","last_updated":"2024-09-05T20:03:01.579036+00:00","context":{"id":"01J71WGYTB16BJH48GWZMS3VMJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1e:9d:72:ce:49:74",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_geocoded_location_3","state":"Home","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199500293138996,-112.08385703248054],"Name":"4321 W 3550 S","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"4321","Thoroughfare":"W 3550 S","Time Zone":"America/Denver","Zones":["Home","Hood"],"icon":"mdi:map","friendly_name":"Sam’s iPad Geocoded Location"},"last_changed":"2024-09-05T22:57:21.803561+00:00","last_reported":"2024-09-05T22:57:21.803561+00:00","last_updated":"2024-09-05T22:57:21.803561+00:00","context":{"id":"01J726G5WBWTS8F75VEN5PMJEV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Home",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Sam’s iPad Location permission"},"last_changed":"2024-09-05T20:03:01.579444+00:00","last_reported":"2024-09-05T20:03:01.579444+00:00","last_updated":"2024-09-05T20:03:01.579444+00:00","context":{"id":"01J71WGYTB1AFV802T2VHA01CN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_ipad_app_version","state":"2024.8.1","attributes":{"icon":"mdi:cellphone","friendly_name":"Sam’s iPad App Version"},"last_changed":"2024-09-05T20:03:01.579627+00:00","last_reported":"2024-09-05T20:03:01.579627+00:00","last_updated":"2024-09-05T20:03:01.579627+00:00","context":{"id":"01J71WGYTBV0TMCB9WV066RRKZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.8.1",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.samsiphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’siPhone Focus"},"last_changed":"2024-09-05T20:03:01.580202+00:00","last_reported":"2024-09-05T20:03:01.580202+00:00","last_updated":"2024-09-05T20:03:01.580202+00:00","context":{"id":"01J71WGYTC4ZZ5PYYGTX3YVF5A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.samsiphone","state":"Hood","attributes":{"source_type":"gps","battery_level":35,"latitude":41.199493408203125,"longitude":-112.08385810872146,"gps_accuracy":6,"altitude":1298.5295791625977,"vertical_accuracy":20,"friendly_name":"Sam’siPhone"},"last_changed":"2024-09-05T20:03:01.580633+00:00","last_reported":"2024-09-05T20:03:01.580633+00:00","last_updated":"2024-09-05T20:03:01.580633+00:00","context":{"id":"01J71WGYTC8F5J0JC3GYJ7Y4GV","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"Sam’siPhone Activity"},"last_changed":"2024-09-05T20:03:01.581138+00:00","last_reported":"2024-09-05T20:03:01.581138+00:00","last_updated":"2024-09-05T20:03:01.581138+00:00","context":{"id":"01J71WGYTDESB8KXA0TR5NJ841","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Sam’siPhone Average Active Pace"},"last_changed":"2024-09-05T20:03:01.581960+00:00","last_reported":"2024-09-05T20:03:01.581960+00:00","last_updated":"2024-09-05T20:03:01.581960+00:00","context":{"id":"01J71WGYTDMFCV619NT5B66ZT4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_floors_ascended","state":"3","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Sam’siPhone Floors Ascended"},"last_changed":"2024-09-05T20:03:01.582589+00:00","last_reported":"2024-09-05T20:03:01.582589+00:00","last_updated":"2024-09-05T20:03:01.582589+00:00","context":{"id":"01J71WGYTEFCSZW6GPKD4WXC54","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_steps","state":"692","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Sam’siPhone Steps"},"last_changed":"2024-09-05T20:03:01.582843+00:00","last_reported":"2024-09-05T20:03:01.582843+00:00","last_updated":"2024-09-05T20:03:01.582843+00:00","context":{"id":"01J71WGYTEMPFCV28ACMK0KQNF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 692,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_distance","state":"495","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Sam’siPhone Distance"},"last_changed":"2024-09-05T20:03:01.583157+00:00","last_reported":"2024-09-05T20:03:01.583157+00:00","last_updated":"2024-09-05T20:03:01.583157+00:00","context":{"id":"01J71WGYTF4C9NEVYA2EBTZS8M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 495,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_storage","state":"57.92","attributes":{"Available":"521.15 GB","Available (Important)":"639.21 GB","Available (Opportunistic)":"593.07 GB","Total":"1,023.87 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’siPhone Storage"},"last_changed":"2024-09-05T20:03:01.583397+00:00","last_reported":"2024-09-05T20:03:01.583397+00:00","last_updated":"2024-09-05T20:03:01.583397+00:00","context":{"id":"01J71WGYTFQER4T7FWTF554GJP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "57.92",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-30","friendly_name":"Sam’siPhone Battery State"},"last_changed":"2024-09-05T20:03:01.583576+00:00","last_reported":"2024-09-05T20:03:01.583576+00:00","last_updated":"2024-09-05T20:03:01.583576+00:00","context":{"id":"01J71WGYTF7NBDMXWA3W6GGY10","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_floors_descended","state":"2","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Sam’siPhone Floors Descended"},"last_changed":"2024-09-05T20:03:01.583752+00:00","last_reported":"2024-09-05T20:03:01.583752+00:00","last_updated":"2024-09-05T20:03:01.583752+00:00","context":{"id":"01J71WGYTFS9MYQ8PYP11RTHX9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_battery_level","state":"35","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-30","friendly_name":"Sam’siPhone Battery Level"},"last_changed":"2024-09-05T20:03:01.583929+00:00","last_reported":"2024-09-05T20:03:01.583929+00:00","last_updated":"2024-09-05T20:03:01.583929+00:00","context":{"id":"01J71WGYTFXRYGYPDCE6TPNWR9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 35,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_ssid","state":"Rednecks4Rainbows","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’siPhone SSID"},"last_changed":"2024-09-05T20:03:01.584094+00:00","last_reported":"2024-09-05T20:03:01.584094+00:00","last_updated":"2024-09-05T20:03:01.584094+00:00","context":{"id":"01J71WGYTGK6MVEQ4T9TJG8GW0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Rednecks4Rainbows",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Sam’siPhone SIM 1"},"last_changed":"2024-09-05T20:03:01.584312+00:00","last_reported":"2024-09-05T20:03:01.584312+00:00","last_updated":"2024-09-05T20:03:01.584312+00:00","context":{"id":"01J71WGYTG1ABBZNCY1AB5NTW0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_last_update_trigger","state":"Significant Location Change","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Sam’siPhone Last Update Trigger"},"last_changed":"2024-09-05T20:03:01.584494+00:00","last_reported":"2024-09-05T20:03:01.584494+00:00","last_updated":"2024-09-05T20:03:01.584494+00:00","context":{"id":"01J71WGYTG1FF6CPNWX464WEWH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Significant Location Change",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_geocoded_location","state":"4321 W 3550 S\nWest Haven UT 84401\nUnited States","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199493408203125,-112.08385810872146],"Name":"4321 W 3550 S","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"4321","Thoroughfare":"W 3550 S","Time Zone":"America/Denver","Zones":["Home","Hood"],"icon":"mdi:map","friendly_name":"Sam’siPhone Geocoded Location"},"last_changed":"2024-09-05T20:03:01.584657+00:00","last_reported":"2024-09-05T20:03:01.584657+00:00","last_updated":"2024-09-05T20:03:01.584657+00:00","context":{"id":"01J71WGYTGPEH6JW9XZCCBZ8TV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "4321 W 3550 S\nWest Haven UT 84401\nUnited States",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Sam’siPhone SIM 2"},"last_changed":"2024-09-05T20:03:01.584817+00:00","last_reported":"2024-09-05T20:03:01.584817+00:00","last_updated":"2024-09-05T20:03:01.584817+00:00","context":{"id":"01J71WGYTG4C2G829X00M6XV4C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’siPhone Connection Type"},"last_changed":"2024-09-05T20:03:01.584968+00:00","last_reported":"2024-09-05T20:03:01.584968+00:00","last_updated":"2024-09-05T20:03:01.584968+00:00","context":{"id":"01J71WGYTGN07XMS7BF8MZST1D","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_bssid","state":"1e:9d:72:ce:49:74","attributes":{"icon":"mdi:wifi-star","friendly_name":"Sam’siPhone BSSID"},"last_changed":"2024-09-05T20:03:01.585121+00:00","last_reported":"2024-09-05T20:03:01.585121+00:00","last_updated":"2024-09-05T20:03:01.585121+00:00","context":{"id":"01J71WGYTHM8Z2QN9Y09MFAXF6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1e:9d:72:ce:49:74",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_app_version","state":"2024.9","attributes":{"icon":"mdi:cellphone","friendly_name":"Sam’siPhone App Version"},"last_changed":"2024-09-05T20:03:01.585333+00:00","last_reported":"2024-09-05T20:03:01.585333+00:00","last_updated":"2024-09-05T20:03:01.585333+00:00","context":{"id":"01J71WGYTHC9DD7PYHPBPJZ43S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Sam’siPhone Location permission"},"last_changed":"2024-09-05T20:03:01.585498+00:00","last_reported":"2024-09-05T20:03:01.585498+00:00","last_updated":"2024-09-05T20:03:01.585498+00:00","context":{"id":"01J71WGYTH9TR72MGYSTRKXH8M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.samsiphone_watch_battery","state":"-1","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-outline","friendly_name":"Sam’siPhone Watch Battery"},"last_changed":"2024-09-05T20:03:01.585669+00:00","last_reported":"2024-09-05T20:03:01.585669+00:00","last_updated":"2024-09-05T20:03:01.585669+00:00","context":{"id":"01J71WGYTH35RJHF1FHC2JYCFA","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": -1,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_mbp_camera_in_use","state":"off","attributes":{"icon":"mdi:camera-off","friendly_name":"Sam’s MBP Camera In Use"},"last_changed":"2024-09-05T20:03:01.586327+00:00","last_reported":"2024-09-05T20:03:01.586327+00:00","last_updated":"2024-09-05T20:03:01.586327+00:00","context":{"id":"01J71WGYTJ1QVQHASWPC32PDPK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_mbp_audio_input_in_use","state":"off","attributes":{"icon":"mdi:microphone-off","friendly_name":"Sam’s MBP Audio Input In Use"},"last_changed":"2024-09-05T20:03:01.586497+00:00","last_reported":"2024-09-05T20:03:01.586497+00:00","last_updated":"2024-09-05T20:03:01.586497+00:00","context":{"id":"01J71WGYTJK9GFRT6DHMPKTKGH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_mbp_audio_output_in_use","state":"off","attributes":{"icon":"mdi:volume-low","friendly_name":"Sam’s MBP Audio Output In Use"},"last_changed":"2024-09-05T22:54:44.162570+00:00","last_reported":"2024-09-05T22:54:44.162570+00:00","last_updated":"2024-09-05T22:54:44.162570+00:00","context":{"id":"01J726BBY24VGMGQH88ZDM2AQM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_mbp_active","state":"on","attributes":{"Fast User Switched":false,"Idle":false,"Locked":false,"Screen Off":false,"Screensaver":false,"Sleeping":false,"Terminating":false,"icon":"mdi:monitor","friendly_name":"Sam’s MBP Active"},"last_changed":"2024-09-05T22:09:58.956905+00:00","last_reported":"2024-09-05T22:09:58.956905+00:00","last_updated":"2024-09-05T22:09:58.956905+00:00","context":{"id":"01J723SDNC00XP7TRGX7GT1K30","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.sams_mbp_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Sam’s MBP Focus"},"last_changed":"2024-09-05T20:03:01.586903+00:00","last_reported":"2024-09-05T20:03:01.586903+00:00","last_updated":"2024-09-05T20:03:01.586903+00:00","context":{"id":"01J71WGYTJ84PZH7YC5M56RE45","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.sams_mbp","state":"Hood","attributes":{"source_type":"gps","battery_level":100,"latitude":41.199795895376994,"longitude":-112.08378753398237,"gps_accuracy":35,"altitude":0.0,"friendly_name":"Sam’s MBP"},"last_changed":"2024-09-05T20:03:01.587346+00:00","last_reported":"2024-09-05T20:03:01.587346+00:00","last_updated":"2024-09-05T20:03:01.587346+00:00","context":{"id":"01J71WGYTKKZEKRWBH00EMYR2F","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_internal_battery_level","state":"49","attributes":{"Battery Provides Time Remaining":true,"BatteryHealth":"Check Battery","BatteryHealthCondition":"","Current":-244,"Current Capacity":49,"DesignCycleCount":1000,"Hardware Serial Number":"D862183A61ZL3L2EQ","Is Charging":false,"Is Present":true,"LPM Active":false,"Max Capacity":100,"Name":"InternalBattery-0","Optimized Battery Charging Engaged":false,"Power Source ID":7471203,"Power Source State":"Battery Power","Time to Empty":438,"Time to Full Charge":0,"Transport Type":"Internal","Type":"InternalBattery","unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-40","friendly_name":"Sam’s MBP Internal Battery Level"},"last_changed":"2024-09-05T23:59:12.315250+00:00","last_reported":"2024-09-06T00:02:34.713639+00:00","last_updated":"2024-09-06T00:02:34.713639+00:00","context":{"id":"01J72A7K2SVKG8XW8DPF2CMKBB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 49,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_internal_battery_state","state":"Not Charging","attributes":{"Battery Provides Time Remaining":true,"BatteryHealth":"Check Battery","BatteryHealthCondition":"","Current":-244,"Current Capacity":49,"DesignCycleCount":1000,"Hardware Serial Number":"D862183A61ZL3L2EQ","Is Charging":false,"Is Present":true,"Low Power Mode":false,"LPM Active":false,"Max Capacity":100,"Name":"InternalBattery-0","Optimized Battery Charging Engaged":false,"Power Source ID":7471203,"Power Source State":"Battery Power","Time to Empty":438,"Time to Full Charge":0,"Transport Type":"Internal","Type":"InternalBattery","icon":"mdi:battery-40","friendly_name":"Sam’s MBP Internal Battery State"},"last_changed":"2024-09-05T20:03:01.588943+00:00","last_reported":"2024-09-06T00:02:34.718589+00:00","last_updated":"2024-09-06T00:02:34.718589+00:00","context":{"id":"01J72A7K2Y7HRR82XPXTPVQ6SD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_storage","state":"28.56","attributes":{"Available":"147.07 GB","Available (Important)":"154.76 GB","Available (Opportunistic)":"141.18 GB","Total":"494.38 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Sam’s MBP Storage"},"last_changed":"2024-09-05T23:59:12.316216+00:00","last_reported":"2024-09-06T00:02:36.619966+00:00","last_updated":"2024-09-06T00:02:36.619966+00:00","context":{"id":"01J72A7MYB1CHE28RTB9W9C5ZR","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "28.56",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_ssid","state":"Rednecks4Rainbows","attributes":{"icon":"mdi:wifi","friendly_name":"Sam’s MBP SSID"},"last_changed":"2024-09-05T20:03:01.589633+00:00","last_reported":"2024-09-05T20:03:01.589633+00:00","last_updated":"2024-09-05T20:03:01.589633+00:00","context":{"id":"01J71WGYTNWCA6DPV7QN6B11R8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Rednecks4Rainbows",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_bssid","state":"1e:9d:72:ce:49:74","attributes":{"icon":"mdi:wifi-star","friendly_name":"Sam’s MBP BSSID"},"last_changed":"2024-09-05T20:03:01.589926+00:00","last_reported":"2024-09-05T20:03:01.589926+00:00","last_updated":"2024-09-05T20:03:01.589926+00:00","context":{"id":"01J71WGYTNZJRVTTCKH0F07K18","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1e:9d:72:ce:49:74",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_connection_type","state":"Wi-Fi","attributes":{"Hardware Address":"9c:3e:53:74:8a:2f","Name":"Wi-Fi","icon":"mdi:wifi","friendly_name":"Sam’s MBP Connection Type"},"last_changed":"2024-09-05T20:03:01.590257+00:00","last_reported":"2024-09-05T20:03:01.590257+00:00","last_updated":"2024-09-05T20:03:01.590257+00:00","context":{"id":"01J71WGYTPJKG1JDR5PN18C143","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_geocoded_location","state":"Hood","attributes":{"Administrative Area":"UT","Areas Of Interest":"N/A","Country":"United States","Inland Water":"N/A","ISO Country Code":"US","Locality":"West Haven","Location":[41.199795895376994,-112.08378753398237],"Name":"3545 S 4300 W","Ocean":"N/A","Postal Code":"84401","Sub Administrative Area":"Weber County","Sub Locality":"N/A","Sub Thoroughfare":"3545","Thoroughfare":"S 4300 W","Time Zone":"America/Denver","Zones":["Hood"],"icon":"mdi:map","friendly_name":"Sam’s MBP Geocoded Location"},"last_changed":"2024-09-05T20:03:01.590539+00:00","last_reported":"2024-09-05T20:03:01.590539+00:00","last_updated":"2024-09-05T20:03:01.590539+00:00","context":{"id":"01J71WGYTP7EQQY2H5BN27Y4SH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Hood",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_active_camera","state":"Inactive","attributes":{"Active Camera":[],"All Camera":["FaceTime HD Camera","Sam’s iPhone Camera","Sam’s iPhone Desk View Camera"],"icon":"mdi:camera-off","friendly_name":"Sam’s MBP Active Camera"},"last_changed":"2024-09-05T20:03:01.590832+00:00","last_reported":"2024-09-05T20:03:01.590832+00:00","last_updated":"2024-09-05T20:03:01.590832+00:00","context":{"id":"01J71WGYTPEZQMGKTKDVG12NFE","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_active_audio_input","state":"Inactive","attributes":{"Active Audio Input":[],"All Audio Input":["Sam’s iPhone Microphone","MacBook Pro Microphone","Microsoft Teams Audio","Parallels Access Sound"],"icon":"mdi:microphone-off","friendly_name":"Sam’s MBP Active Audio Input"},"last_changed":"2024-09-05T20:03:01.591161+00:00","last_reported":"2024-09-05T20:03:01.591161+00:00","last_updated":"2024-09-05T20:03:01.591161+00:00","context":{"id":"01J71WGYTQ1WZZQXN1629MZS8S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_active_audio_output","state":"Inactive","attributes":{"Active Audio Output":[],"All Audio Output":["Sound Design","MacBook Pro Speakers","Microsoft Teams Audio","Parallels Access Sound"],"icon":"mdi:volume-low","friendly_name":"Sam’s MBP Active Audio Output"},"last_changed":"2024-09-05T22:54:44.163148+00:00","last_reported":"2024-09-05T22:54:44.163148+00:00","last_updated":"2024-09-05T22:54:44.163148+00:00","context":{"id":"01J726BBY33CKYAZEA68QMG06P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Inactive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_displays","state":"1","attributes":{"Display IDs":["37D8832A-2D66-02CA-B9F7-8F30A301B230"],"Display Names":["Built-in Retina Display"],"icon":"mdi:monitor-multiple","friendly_name":"Sam’s MBP Displays"},"last_changed":"2024-09-05T20:03:01.591520+00:00","last_reported":"2024-09-05T20:03:01.591520+00:00","last_updated":"2024-09-05T20:03:01.591520+00:00","context":{"id":"01J71WGYTQ8CRR0XB4RH0MYC32","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_primary_display_name","state":"Built-in Retina Display","attributes":{"icon":"mdi:monitor-star","friendly_name":"Sam’s MBP Primary Display Name"},"last_changed":"2024-09-05T20:03:01.591676+00:00","last_reported":"2024-09-05T20:03:01.591676+00:00","last_updated":"2024-09-05T20:03:01.591676+00:00","context":{"id":"01J71WGYTQ29T6KXGE0EXSKJWK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Built-in Retina Display",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_primary_display_id","state":"37D8832A-2D66-02CA-B9F7-8F30A301B230","attributes":{"icon":"mdi:monitor-star","friendly_name":"Sam’s MBP Primary Display ID"},"last_changed":"2024-09-05T20:03:01.591834+00:00","last_reported":"2024-09-05T20:03:01.591834+00:00","last_updated":"2024-09-05T20:03:01.591834+00:00","context":{"id":"01J71WGYTQGG46EC80FM5GVAZJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "37D8832A-2D66-02CA-B9F7-8F30A301B230",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_frontmost_app","state":"Code","attributes":{"Bundle Identifier":"com.microsoft.VSCode","Is Hidden":false,"Launch Date":"2024-09-05T23:55:34Z","Owns Menu Bar":true,"icon":"mdi:traffic-light","friendly_name":"Sam’s MBP Frontmost App"},"last_changed":"2024-09-06T00:02:36.621621+00:00","last_reported":"2024-09-06T00:02:36.621621+00:00","last_updated":"2024-09-06T00:02:36.621621+00:00","context":{"id":"01J72A7MYDX06ZMSCVCKTR1HWY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Code",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:monitor","friendly_name":"Sam’s MBP Last Update Trigger"},"last_changed":"2024-09-06T00:01:04.872540+00:00","last_reported":"2024-09-06T00:01:04.872540+00:00","last_updated":"2024-09-06T00:01:04.872540+00:00","context":{"id":"01J72A4VB8CCAH9YYS82040HEM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Sam’s MBP Location permission"},"last_changed":"2024-09-05T22:28:50.930318+00:00","last_reported":"2024-09-05T22:28:50.930318+00:00","last_updated":"2024-09-05T22:28:50.930318+00:00","context":{"id":"01J724VZ3JHC2GKZ3EYY7XY4Y4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sams_mbp_app_version","state":"2024.8","attributes":{"icon":"mdi:cellphone","friendly_name":"Sam’s MBP App Version"},"last_changed":"2024-09-05T20:03:01.592554+00:00","last_reported":"2024-09-05T20:03:01.592554+00:00","last_updated":"2024-09-05T20:03:01.592554+00:00","context":{"id":"01J71WGYTR0WVQHES2D66YSRE9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.8",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_better_sliders_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.0.2","in_progress":false,"latest_version":"v3.0.2","release_summary":null,"release_url":"https://github.com/phischdev/lovelace-mushroom-better-sliders/releases/v3.0.2","skipped_version":null,"title":null,"friendly_name":"Mushroom - Better Sliders update","supported_features":23},"last_changed":"2024-09-05T20:03:02.004946+00:00","last_reported":"2024-09-05T20:03:02.004946+00:00","last_updated":"2024-09-05T20:03:02.004946+00:00","context":{"id":"01J71WGZ7M4S1P61C4Z89DCM2K","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.horizon_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.1.0","in_progress":false,"latest_version":"v1.1.0","release_summary":null,"release_url":"https://github.com/rejuvenate/lovelace-horizon-card/releases/v1.1.0","skipped_version":null,"title":null,"friendly_name":"Horizon Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.005306+00:00","last_reported":"2024-09-05T20:03:02.005306+00:00","last_updated":"2024-09-05T20:03:02.005306+00:00","context":{"id":"01J71WGZ7NE79BG74C3ET60NFX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.config_template_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.3.6","in_progress":false,"latest_version":"1.3.6","release_summary":null,"release_url":"https://github.com/iantrich/config-template-card/releases/1.3.6","skipped_version":null,"title":null,"friendly_name":"Config Template Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.005569+00:00","last_reported":"2024-09-05T20:03:02.005569+00:00","last_updated":"2024-09-05T20:03:02.005569+00:00","context":{"id":"01J71WGZ7NXSZMQ34SG8RZV93V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.button_text_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.6.6","in_progress":false,"latest_version":"v0.6.6","release_summary":null,"release_url":"https://github.com/Savjee/button-text-card/releases/v0.6.6","skipped_version":null,"title":null,"friendly_name":"Button Text Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.005825+00:00","last_reported":"2024-09-05T20:03:02.005825+00:00","last_updated":"2024-09-05T20:03:02.005825+00:00","context":{"id":"01J71WGZ7NXQ7G4NQJDF76TTVH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.synthwave_hass_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.3.5","in_progress":false,"latest_version":"0.3.5","release_summary":null,"release_url":"https://github.com/bbbenji/synthwave-hass/releases/0.3.5","skipped_version":null,"title":null,"friendly_name":"Synthwave Hass update","supported_features":23},"last_changed":"2024-09-05T20:03:02.006098+00:00","last_reported":"2024-09-05T20:03:02.006098+00:00","last_updated":"2024-09-05T20:03:02.006098+00:00","context":{"id":"01J71WGZ7P76TP9HC55MA0HJHE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.themable_grid_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.1.1","in_progress":false,"latest_version":"v2.1.1","release_summary":null,"release_url":"https://github.com/nervetattoo/themable-grid/releases/v2.1.1","skipped_version":null,"title":null,"friendly_name":"themable-grid update","supported_features":23},"last_changed":"2024-09-05T20:03:02.006361+00:00","last_reported":"2024-09-05T20:03:02.006361+00:00","last_updated":"2024-09-05T20:03:02.006361+00:00","context":{"id":"01J71WGZ7P680W9GBFAJH9ASES","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.button_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.1.2","in_progress":false,"latest_version":"v4.1.2","release_summary":null,"release_url":"https://github.com/custom-cards/button-card/releases/v4.1.2","skipped_version":null,"title":null,"friendly_name":"button-card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.006612+00:00","last_reported":"2024-09-05T20:03:02.006612+00:00","last_updated":"2024-09-05T20:03:02.006612+00:00","context":{"id":"01J71WGZ7P66FWJM3DSC5K7ZG0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.card_tools_update","state":"off","attributes":{"auto_update":false,"installed_version":"11","in_progress":false,"latest_version":"11","release_summary":null,"release_url":"https://github.com/thomasloven/lovelace-card-tools/releases/11","skipped_version":null,"title":null,"friendly_name":"card-tools update","supported_features":23},"last_changed":"2024-09-05T20:03:02.006834+00:00","last_reported":"2024-09-05T20:03:02.006834+00:00","last_updated":"2024-09-05T20:03:02.006834+00:00","context":{"id":"01J71WGZ7PRASHVFFAN0FZQMCB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.surveillance_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.0.7","in_progress":false,"latest_version":"0.0.7","release_summary":null,"release_url":"https://github.com/custom-cards/surveillance-card/releases/0.0.7","skipped_version":null,"title":null,"friendly_name":"surveillance-card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.007101+00:00","last_reported":"2024-09-05T20:03:02.007101+00:00","last_updated":"2024-09-05T20:03:02.007101+00:00","context":{"id":"01J71WGZ7QFCS836DRMGVW5Q7X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.portainer_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.0.2","in_progress":false,"latest_version":"v1.0.2","release_summary":null,"release_url":"https://github.com/tomaae/homeassistant-portainer/releases/v1.0.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/portainer/icon.png","friendly_name":"Portainer update","supported_features":23},"last_changed":"2024-09-05T20:03:02.008592+00:00","last_reported":"2024-09-05T20:03:02.008592+00:00","last_updated":"2024-09-05T20:03:02.008592+00:00","context":{"id":"01J71WGZ7R3YTYMZDEBCW3ZK0G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.0.7","in_progress":false,"latest_version":"v4.0.7","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom/releases/v4.0.7","skipped_version":null,"title":null,"friendly_name":"Mushroom update","supported_features":23},"last_changed":"2024-09-05T20:03:02.008974+00:00","last_reported":"2024-09-05T20:03:02.008974+00:00","last_updated":"2024-09-05T20:03:02.008974+00:00","context":{"id":"01J71WGZ7RMA0GGHC97E9K2193","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mini_graph_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.12.1","in_progress":false,"latest_version":"v0.12.1","release_summary":null,"release_url":"https://github.com/kalkih/mini-graph-card/releases/v0.12.1","skipped_version":null,"title":null,"friendly_name":"mini-graph-card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.009510+00:00","last_reported":"2024-09-05T20:03:02.009510+00:00","last_updated":"2024-09-05T20:03:02.009510+00:00","context":{"id":"01J71WGZ7S8HEAGBPMFQG40G2R","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.custom_brand_icons_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.9.1","in_progress":false,"latest_version":"2024.9.1","release_summary":null,"release_url":"https://github.com/elax46/custom-brand-icons/releases/2024.9.1","skipped_version":null,"title":null,"friendly_name":"Custom brand icons update","supported_features":23},"last_changed":"2024-09-05T20:03:02.009676+00:00","last_reported":"2024-09-05T20:03:02.009676+00:00","last_updated":"2024-09-05T20:03:02.009676+00:00","context":{"id":"01J71WGZ7SQ8PCN6MMVWNFMDFN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.notify_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"eff6125","in_progress":false,"latest_version":"eff6125","release_summary":null,"release_url":"https://github.com/bernikr/lovelace-notify-card","skipped_version":null,"title":null,"friendly_name":"Notify Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.009844+00:00","last_reported":"2024-09-05T20:03:02.009844+00:00","last_updated":"2024-09-05T20:03:02.009844+00:00","context":{"id":"01J71WGZ7SRSGA3TN666RR4BWJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.passive_ble_monitor_integration_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.15.0","in_progress":false,"latest_version":"12.15.0","release_summary":null,"release_url":"https://github.com/custom-components/ble_monitor/releases/12.15.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/ble_monitor/icon.png","friendly_name":"Passive BLE monitor integration update","supported_features":23},"last_changed":"2024-09-05T20:03:02.010442+00:00","last_reported":"2024-09-05T20:03:02.010442+00:00","last_updated":"2024-09-05T20:03:02.010442+00:00","context":{"id":"01J71WGZ7T93TNH9G2KCNEGRGD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.banner_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"0.13.0","in_progress":false,"latest_version":"0.13.0","release_summary":null,"release_url":"https://github.com/nervetattoo/banner-card/releases/0.13.0","skipped_version":null,"title":null,"friendly_name":"Banner Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.010633+00:00","last_reported":"2024-09-05T20:03:02.010633+00:00","last_updated":"2024-09-05T20:03:02.010633+00:00","context":{"id":"01J71WGZ7T8G2VTW61TFX1KE5P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.simpleicons_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.2.1","in_progress":false,"latest_version":"v2.2.1","release_summary":null,"release_url":"https://github.com/vigonotion/hass-simpleicons/releases/v2.2.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/simpleicons/icon.png","friendly_name":"simpleicons update","supported_features":23},"last_changed":"2024-09-05T20:03:02.010786+00:00","last_reported":"2024-09-05T20:03:02.010786+00:00","last_updated":"2024-09-05T20:03:02.010786+00:00","context":{"id":"01J71WGZ7TJSXA201YVEZAJAWH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.webrtc_camera_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.5.2","in_progress":false,"latest_version":"v3.5.2","release_summary":null,"release_url":"https://github.com/AlexxIT/WebRTC/releases/v3.5.2","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/webrtc/icon.png","friendly_name":"WebRTC Camera update","supported_features":23},"last_changed":"2024-09-05T20:03:02.011489+00:00","last_reported":"2024-09-05T20:03:02.011489+00:00","last_updated":"2024-09-05T20:03:02.011489+00:00","context":{"id":"01J71WGZ7VTYWZGJSBJ1EW6XEF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.rgb_light_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.11.0","in_progress":false,"latest_version":"1.11.0","release_summary":null,"release_url":"https://github.com/bokub/rgb-light-card/releases/1.11.0","skipped_version":null,"title":null,"friendly_name":"RGB Light Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.011654+00:00","last_reported":"2024-09-05T20:03:02.011654+00:00","last_updated":"2024-09-05T20:03:02.011654+00:00","context":{"id":"01J71WGZ7VW5S3HFZ4PFK720ZP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.alexa_media_player_update","state":"off","attributes":{"auto_update":false,"installed_version":"v4.12.12","in_progress":false,"latest_version":"v4.12.12","release_summary":null,"release_url":"https://github.com/alandtse/alexa_media_player/releases/v4.12.12","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/alexa_media/icon.png","friendly_name":"Alexa Media Player update","supported_features":23},"last_changed":"2024-09-05T20:03:02.011821+00:00","last_reported":"2024-09-05T20:03:02.011821+00:00","last_updated":"2024-09-05T20:03:02.011821+00:00","context":{"id":"01J71WGZ7VG561S9JSTFDSH9NJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mushroom_themes_update","state":"off","attributes":{"auto_update":false,"installed_version":"v0.0.10","in_progress":false,"latest_version":"v0.0.10","release_summary":null,"release_url":"https://github.com/piitaya/lovelace-mushroom-themes/releases/v0.0.10","skipped_version":null,"title":null,"friendly_name":"Mushroom Themes update","supported_features":23},"last_changed":"2024-09-05T20:03:02.012314+00:00","last_reported":"2024-09-05T20:03:02.012314+00:00","last_updated":"2024-09-05T20:03:02.012314+00:00","context":{"id":"01J71WGZ7W1MMEGQ3E2E81J0J8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.fontawesome_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.2.1","in_progress":false,"latest_version":"2.2.1","release_summary":null,"release_url":"https://github.com/thomasloven/hass-fontawesome/releases/2.2.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/fontawesome/icon.png","friendly_name":"fontawesome update","supported_features":23},"last_changed":"2024-09-05T20:03:02.012518+00:00","last_reported":"2024-09-05T20:03:02.012518+00:00","last_updated":"2024-09-05T20:03:02.012518+00:00","context":{"id":"01J71WGZ7WNPV32MDFSGYFRCJ9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.swiss_army_knife_custom_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.5.1","in_progress":false,"latest_version":"v2.5.1","release_summary":null,"release_url":"https://github.com/AmoebeLabs/swiss-army-knife-card/releases/v2.5.1","skipped_version":null,"title":null,"friendly_name":"Swiss Army Knife custom card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.012744+00:00","last_reported":"2024-09-05T20:03:02.012744+00:00","last_updated":"2024-09-05T20:03:02.012744+00:00","context":{"id":"01J71WGZ7W3HMW8RY29B2SMEC1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"installed_version":"2.0.1","in_progress":false,"latest_version":"2.0.1","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2024-09-05T20:03:02.013268+00:00","last_reported":"2024-09-05T20:03:02.013268+00:00","last_updated":"2024-09-05T20:03:02.013268+00:00","context":{"id":"01J71WGZ7XZG7C1SZ55DRRK207","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.vaporwave_pink_theme_update","state":"off","attributes":{"auto_update":false,"installed_version":"v1.1","in_progress":false,"latest_version":"v1.1","release_summary":null,"release_url":"https://github.com/home-assistant-community-themes/vaporwave-pink/releases/v1.1","skipped_version":null,"title":null,"friendly_name":"Vaporwave Pink Theme update","supported_features":23},"last_changed":"2024-09-05T20:03:02.013456+00:00","last_reported":"2024-09-05T20:03:02.013456+00:00","last_updated":"2024-09-05T20:03:02.013456+00:00","context":{"id":"01J71WGZ7X241WEADN0CSAVAXN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bubble_card_update","state":"off","attributes":{"auto_update":false,"installed_version":"v2.2.4","in_progress":false,"latest_version":"v2.2.4","release_summary":null,"release_url":"https://github.com/Clooos/Bubble-Card/releases/v2.2.4","skipped_version":null,"title":null,"friendly_name":"Bubble Card update","supported_features":23},"last_changed":"2024-09-05T20:03:02.013620+00:00","last_reported":"2024-09-05T20:03:02.013620+00:00","last_updated":"2024-09-05T20:03:02.013620+00:00","context":{"id":"01J71WGZ7XQNKZ4F6CDBDWH2Y5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.music_assistant_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.8.1","in_progress":false,"latest_version":"2024.8.1","release_summary":null,"release_url":"https://github.com/music-assistant/hass-music-assistant/releases/2024.8.1","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/mass/icon.png","friendly_name":"Music Assistant update","supported_features":23},"last_changed":"2024-09-05T20:03:02.013783+00:00","last_reported":"2024-09-05T20:03:02.013783+00:00","last_updated":"2024-09-05T20:03:02.013783+00:00","context":{"id":"01J71WGZ7X3JBAGEXT5NGZXC8D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"update.spook_your_homie_update","state":"off","attributes":{"auto_update":false,"installed_version":"v3.1.0","in_progress":false,"latest_version":"v3.1.0","release_summary":null,"release_url":"https://github.com/frenck/spook/releases/v3.1.0","skipped_version":null,"title":null,"entity_picture":"https://brands.home-assistant.io/_/spook/icon.png","friendly_name":"Spook 👻 Your homie update","supported_features":23},"last_changed":"2024-09-05T20:03:02.014084+00:00","last_reported":"2024-09-05T20:03:02.014084+00:00","last_updated":"2024-09-05T20:03:02.014084+00:00","context":{"id":"01J71WGZ7YEYQEQM3K5718QP4N","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"button.homeassistant_restart","state":"unknown","attributes":{"device_class":"restart","friendly_name":"Home Assistant Restart"},"last_changed":"2024-09-05T20:03:05.113567+00:00","last_reported":"2024-09-05T20:03:05.113567+00:00","last_updated":"2024-09-05T20:03:05.113567+00:00","context":{"id":"01J71WH28S56JAZT10KP514DC0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"button.homeassistant_reload","state":"unknown","attributes":{"icon":"mdi:auto-fix","friendly_name":"Home Assistant Reload"},"last_changed":"2024-09-05T20:03:05.113777+00:00","last_reported":"2024-09-05T20:03:05.113777+00:00","last_updated":"2024-09-05T20:03:05.113777+00:00","context":{"id":"01J71WH28SSRTFEW7QXSYZP1X4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"button.ignore_all_issues","state":"unknown","attributes":{"icon":"mdi:checkbox-outline","friendly_name":"Repairs Ignore all"},"last_changed":"2024-09-05T20:03:05.114419+00:00","last_reported":"2024-09-05T20:03:05.114419+00:00","last_updated":"2024-09-05T20:03:05.114419+00:00","context":{"id":"01J71WH28T263W4XZYY7487XKF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"button.unignore_all_issues","state":"unknown","attributes":{"icon":"mdi:checkbox-blank-outline","friendly_name":"Repairs Unignore all"},"last_changed":"2024-09-05T20:03:05.114585+00:00","last_reported":"2024-09-05T20:03:05.114585+00:00","last_updated":"2024-09-05T20:03:05.114585+00:00","context":{"id":"01J71WH28T4H1948C0A9NXKBAG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    },
+    {
+      "state": {"entity_id":"event.repair","state":"2024-09-05T20:02:43.455+00:00","attributes":{"event_types":["create","remove","update"],"event_type":"remove","domain":"hacs","issue_id":"restart_required_258012818_tags/v2.2.1","friendly_name":"Repairs"},"last_changed":"2024-09-05T20:03:05.142658+00:00","last_reported":"2024-09-05T20:03:05.142658+00:00","last_updated":"2024-09-05T20:03:05.142658+00:00","context":{"id":"01J71WH29PVMT7PB1NYARW6XV2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "last_event_type": "remove",
+        "last_event_attributes": {
+          "domain": "hacs",
+          "issue_id": "restart_required_258012818_tags/v2.2.1"
+        }
+      },
+      "last_seen": "2024-09-06T00:03:09.702927+00:00"
+    }
+  ]
+}

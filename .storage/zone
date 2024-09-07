@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "hood",
+        "latitude": 41.199493408203125,
+        "longitude": -112.08383736461892,
+        "name": "Hood",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 200.0
+      }
+    ]
+  }
+}

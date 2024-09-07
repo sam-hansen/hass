@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "custom:themable-grid",
+              "padding": "0px",
+              "gap": "6px",
+              "breakpoints": [
+                {
+                  "name": "mobile",
+                  "mq": "(max-width: 767px)",
+                  "columns": 1
+                },
+                {
+                  "name": "tablet",
+                  "mq": "(min-width: 768px) and (max-width: 1032px)",
+                  "columns": 2
+                },
+                {
+                  "name": "desktop",
+                  "mq": "(min-width: 1024px)",
+                  "columns": 3
+                }
+              ],
+              "cards": [
+                {
+                  "type": "custom:mushroom-person-card",
+                  "entity": "person.sam",
+                  "name": "Me",
+                  "fill_container": true,
+                  "icon_type": "entity-picture",
+                  "grid": {
+                    "grid-column": "1 / -1"
+                  }
+                },
+                {
+                  "show_current": true,
+                  "show_forecast": false,
+                  "type": "weather-forecast",
+                  "entity": "weather.home",
+                  "theme": "Mushroom Shadow",
+                  "secondary_info_attribute": "wind_speed"
+                },
+                {
+                  "type": "alarm-panel",
+                  "entity": "alarm_control_panel.cam_system",
+                  "name": "Blink Arm"
+                },
+                {
+                  "type": "entities",
+                  "show_header_toggle": false,
+                  "entities": [
+                    {
+                      "entity": "light.aurora_table_lamp"
+                    },
+                    {
+                      "type": "custom:rgb-light-card",
+                      "entity": "light.aurora_table_lamp",
+                      "colors": [
+                        {
+                          "rgb_color": [
+                            234,
+                            136,
+                            140
+                          ],
+                          "brightness": 255,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            251,
+                            180,
+                            139
+                          ],
+                          "brightness": 200,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            136,
+                            198,
+                            237
+                          ],
+                          "brightness": 150,
+                          "transition": 1
+                        },
+                        {
+                          "rgb_color": [
+                            140,
+                            231,
+                            185
+                          ],
+                          "brightness": 100,
+                          "transition": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "theme": "Mushroom Shadow",
+              "state_color": true
+            }
+          ],
+          "theme": "Mushroom Shadow",
+          "icon": "fas:house-user",
+          "badges": [
+            {
+              "type": "custom:mushroom-template-badge",
+              "content": "Hello",
+              "icon": "mdi:home",
+              "color": "palevioletred"
+            }
+          ]
+        },
+        {
+          "subview": true,
+          "theme": "Mushroom Shadow",
+          "title": "Home Layouts",
+          "path": "home-layouts",
+          "icon": "mdi:floor-plan",
+          "cards": [
+            {
+              "type": "picture-elements",
+              "elements": [
+                {
+                  "type": "state-badge",
+                  "entity": "binary_sensor.remote_ui",
+                  "style": {
+                    "top": "32%",
+                    "left": "40%"
+                  }
+                }
+              ],
+              "image": "https://demo.home-assistant.io/stub_config/floorplan.png"
+            },
+            {
+              "type": "picture-elements",
+              "elements": [
+                {
+                  "type": "state-badge",
+                  "entity": "binary_sensor.remote_ui",
+                  "style": {
+                    "top": "32%",
+                    "left": "40%"
+                  }
+                }
+              ],
+              "image": "https://demo.home-assistant.io/stub_config/floorplan.png"
+            },
+            {
+              "initial_view": "dayGridMonth",
+              "type": "calendar",
+              "entities": [],
+              "theme": "Material Rounded"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
