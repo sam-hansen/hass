@@ -109,6 +109,28 @@
               ],
               "theme": "Mushroom Shadow",
               "state_color": true
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.front_camera_motion_detection",
+                    "binary_sensor.front_battery",
+                    "binary_sensor.front_camera_armed",
+                    "binary_sensor.front_motion",
+                    "sensor.blink_front_temperature",
+                    "sensor.blink_front_wi_fi_signal_strength"
+                  ]
+                },
+                {
+                  "type": "picture-entity",
+                  "entity": "camera.front"
+                }
+              ]
             }
           ],
           "theme": "Mushroom Shadow",

@@ -1,0 +1,58 @@
+- id: blink_snap_picture
+  alias: "Blink Snap Picture"
+  sequence:
+    - action: blink.trigger_camera
+      target:
+        entity_id: camera.front
+    - action: camera.snapshot
+      target:
+        entity_id: camera.front
+      data:
+        filename: /root/.local/media/images/my_image.jpg
+
+- id: arm_blink_when_away
+  alias: "Arm Blink When Away"
+  trigger:
+    platform: state
+    entity_id: all
+    to: "not_home"
+  action:
+    action: alarm_control_panel.alarm_arm_away
+    target:
+      entity_id: alarm_control_panel.cam_system
+
+- id: disarm_blink_when_home
+  alias: "Disarm Blink When Home"
+  trigger:
+    platform: state
+    entity_id: all
+    to: "home"
+  action:
+    action: alarm_control_panel.alarm_disarm
+    target:
+      entity_id: alarm_control_panel.cam_system
+
+- id: save_blink_video_on_motion
+  alias: "Save Blink Video on Motion"
+  trigger:
+    platform: state
+    entity_id: binary_sensor.front_motion
+    to: "on"
+  action:
+    -  action: blink.save_video
+      target:
+        entity_id: camera.front
+      data:
+        filename: "/root/.local/media/videos/blink_video_{{ now().strftime('%Y%m%d_%H%M%S') }}.mp4"
+
+- id: save_recent_clips_from_my_camera
+  alias: "Save Recent Clips from My Camera"
+  trigger:
+    - platform: time_pattern
+      minutes: /3
+  action:
+    - action: blink.save_recent_clips
+      target:
+        entity_id: camera.front
+      data:
+        file_path: /root/.local/media/videos

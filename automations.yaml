@@ -1,1 +1,3 @@
-[]
+[
+  automation: !include blink_actions.yaml
+]
